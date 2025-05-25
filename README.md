@@ -1,19 +1,10 @@
-# 🍕 Pizzaria React
+# Pizzaria React
 
 Uma aplicação web para pedidos online de pizza, feita com ReactJS. O cliente pode preencher seus dados, escolher a pizza, personalizar o pedido e finalizar no carrinho.
 
 ---
 
-## 🚀 Demonstração
-
-![demo](./src/assets/pizza2.png)
-
-Acesse a demo (caso publicada):  
-[🔗 Link do site (Netlify/Vercel)](https://seudominio.com)
-
----
-
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Página inicial com layout atrativo
 - Formulário de cliente (nome, CPF, endereço)
@@ -24,7 +15,7 @@ Acesse a demo (caso publicada):
 
 ---
 
-## 🧪 Tecnologias Usadas
+## Tecnologias Usadas
 
 | Tecnologia | Descrição |
 |------------|-----------|
@@ -35,7 +26,7 @@ Acesse a demo (caso publicada):
 
 ---
 
-## 🛠️ Como Rodar Localmente
+## Como Rodar Localmente
 
 ```bash
 # Clone o repositório
