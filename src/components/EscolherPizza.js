@@ -47,7 +47,9 @@ const EscolherPizza = () => {
       </label>
 
       <div style={{ margin: "1rem 0" }}>
-        <button onClick={() => setQuantidade(Math.max(1, quantidade - 1))}>−</button>
+        <button onClick={() => setQuantidade(Math.max(1, quantidade - 1))}>
+          −
+        </button>
         <span style={{ margin: "0 1rem" }}>{quantidade}</span>
         <button onClick={() => setQuantidade(quantidade + 1)}>+</button>
       </div>

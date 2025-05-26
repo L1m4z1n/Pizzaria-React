@@ -13,15 +13,31 @@ const Carrinho = () => {
 
       <img src={pizza} alt="pizza" width={100} />
 
-      <p><strong>{pedido.quantidade}x {pedido.sabor}</strong></p>
-      <p>Tamanho: <strong>{pedido.tamanho}</strong></p>
-      {pedido.borda && <p>Adicional: <strong>Borda recheada</strong></p>}
+      <p>
+        <strong>
+          {pedido.quantidade}x {pedido.sabor}
+        </strong>
+      </p>
+      <p>
+        Tamanho: <strong>{pedido.tamanho}</strong>
+      </p>
+      {pedido.borda && (
+        <p>
+          Adicional: <strong>Borda recheada</strong>
+        </p>
+      )}
 
       <div className="carrinho-resumo">
         <h3>Entrega:</h3>
-        <p><strong>Endereço:</strong> {cliente.endereco}</p>
-        <p><strong>Tempo estimado:</strong> 22-28 minutos</p>
-        <p><strong>Total:</strong> R$ {total},00</p>
+        <p>
+          <strong>Endereço:</strong> {cliente.endereco}
+        </p>
+        <p>
+          <strong>Tempo estimado:</strong> 22-28 minutos
+        </p>
+        <p>
+          <strong>Total:</strong> R$ {total},00
+        </p>
       </div>
 
       <button className="primary-button" style={{ marginTop: "1.5rem" }}>

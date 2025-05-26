@@ -7,9 +7,15 @@ import Footer from "./Footer";
 const LandingPage = () => {
   return (
     <div className="App">
-      <div id="home"><Home /></div>
-      <div id="sobre"><About /></div>
-      <div id="contato"><Contact /></div>
+      <div id="home"> {/*Ancoragem*/}
+        <Home />
+      </div>
+      <div id="sobre"> {/*Ancoragem*/}
+        <About />
+      </div>
+      <div id="contato"> {/*Ancoragem*/}
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
